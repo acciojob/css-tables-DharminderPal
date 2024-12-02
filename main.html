@@ -1,45 +1,46 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example To-Do App</title>
+    <style>
+        th, td {
+            border: 1px solid #ccc; /* Border style */
+            border-radius: 5px; /* Border radius */
+            padding: 0.5rem; /* Padding */
+            text-align: left; /* Optional: Align text to the left */
+        }
+        tr:nth-child(odd) {
+            background-color: #f2f2f2; /* Background color for odd rows */
+        }
+        tr:nth-child(even) {
+            background-color: #ffffff; /* Background color for even rows */
+        }
+    </style>
 </head>
-
 <body>
-	<table  border="1px">
- <th>Table-Heade 1</th>
-
- 
- <th>Table-Heade 2</th>
- <tr>
-    <td>cell 1</td>
-    <td>cell 4</td>
-
-</tr>
-
-
- <tr>
-    <td>cell 7</td>
-    <td>cell 9</td>
-
-</tr>
-<tr>
-    <td>cell 2</td>
-    <td>cell 5</td>
-
-</tr>
-<tr>
-    <td>cell 8</td>
-    <td>cell 10</td>
-
-</tr>
-
-</table>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table>
+        <tr>
+            <th>Table-Header 1</th> <!-- Corrected header text -->
+            <th>Table-Header 2</th> <!-- Corrected header text -->
+        </tr>
+        <tr>
+            <td>cell 1</td>
+            <td>cell 4</td>
+        </tr>
+        <tr>
+            <td>cell 7</td>
+            <td>cell 9</td>
+        </tr>
+        <tr>
+            <td>cell 2</td>
+            <td>cell 5</td>
+        </tr>
+        <tr>
+            <td>cell 8</td>
+            <td>cell 10</td>
+        </tr>
+    </table>
 </body>
-
 </html>
